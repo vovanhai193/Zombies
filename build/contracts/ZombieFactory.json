@@ -4791,10 +4791,16 @@
       "links": {},
       "address": "0xFE9CEE22FbBC2F69c319DeE04Da87dd26D52169f",
       "transactionHash": "0xb1b6583d63328f745dc9fdf7eb1fcef0d530876f71f9209cd383708a2b42821d"
+    },
+    "1552287025225": {
+      "events": {},
+      "links": {},
+      "address": "0xFE60a3cE55A1F3Ef1Ff8AdD7Bdd6e5048e595a77",
+      "transactionHash": "0xd7d2958cab27ee72b9702f5e20d1bdb1e3985cb001df51b7fd29d3d26c88fab1"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-10T09:40:39.549Z",
+  "updatedAt": "2019-03-11T06:51:46.875Z",
   "devdoc": {
     "methods": {
       "isOwner()": {

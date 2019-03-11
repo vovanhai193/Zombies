@@ -4050,10 +4050,16 @@
       "links": {},
       "address": "0x35F35768428825E774A81aAD7E3941657B580668",
       "transactionHash": "0x3f571276f567a945467615aeea11ae4a96d9e7542fa859b87b49e68c0dc3d3d0"
+    },
+    "1552287025225": {
+      "events": {},
+      "links": {},
+      "address": "0x5F4Ea32ba37Cc81A14F43D38081b63375b40059C",
+      "transactionHash": "0x1d667d0c88bc18677d4dd72c6a7506dd95e57239d95c91e3e07e21b853b12042"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-10T09:40:39.556Z",
+  "updatedAt": "2019-03-11T06:51:46.879Z",
   "devdoc": {
     "methods": {
       "isOwner()": {

@@ -4122,10 +4122,16 @@
       "links": {},
       "address": "0x1ed20805ED2Be53407BcBA0a4b8A6A9C6353d478",
       "transactionHash": "0x16d66d3983983a15570043004c32c37649552f7f401f91ec58d4e0012e5fa168"
+    },
+    "1552287025225": {
+      "events": {},
+      "links": {},
+      "address": "0xc7AaC8023CB693Ec9C2714c9fcad6ba0CbF59234",
+      "transactionHash": "0x0e3443099bf1ed370fcf8784452a06368b87f9b976a35be9ec8a0dac389205a4"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-10T09:40:39.558Z",
+  "updatedAt": "2019-03-11T06:51:46.899Z",
   "devdoc": {
     "methods": {
       "isOwner()": {

@@ -4827,10 +4827,16 @@
       "links": {},
       "address": "0x273ac397ebAb87935bF26c199A23A703636b620E",
       "transactionHash": "0x85bf13031c7226891cc9ba06a3e66ac7a62ad1f45c0d13851afa42065488f8ea"
+    },
+    "1552287025225": {
+      "events": {},
+      "links": {},
+      "address": "0xb84fdf8F247119b91C3c46d28523A98C75172D12",
+      "transactionHash": "0xbf0f3c46b60ff12549ff679c57fa2e2d146d027ab78fd9e6bd95fada2a5031e0"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-10T09:40:39.551Z",
+  "updatedAt": "2019-03-11T06:51:46.882Z",
   "devdoc": {
     "methods": {
       "isOwner()": {

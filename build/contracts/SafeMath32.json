@@ -7307,10 +7307,16 @@
       "links": {},
       "address": "0xD3a45DdeFF836870D44C5bf2E9ED77A650DA1C4e",
       "transactionHash": "0x783526ed86e959ea5c29319b5f2f3a730276ab8e4c8a5b2e95a9a9b0dec7d8e2"
+    },
+    "1552287025225": {
+      "events": {},
+      "links": {},
+      "address": "0x1Aae604038D39cC5c87cDf0D714933eA01653662",
+      "transactionHash": "0xa3907a5409a630f5a3f757bdd102c1eaac3d2eaa65f0b0bd5e322b879c9a966e"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-10T09:36:23.803Z",
+  "updatedAt": "2019-03-11T06:51:46.179Z",
   "devdoc": {
     "methods": {},
     "title": "SafeMath32"
