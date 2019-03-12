@@ -5365,14 +5365,62 @@
       "transactionHash": "0xbbe348a3b2b59da6ac8fb834a2d1905de8406968b17344263981948ec34ae27f"
     },
     "1552287025225": {
+      "events": {
+        "0x88f026aacbbecc90c18411df4b1185fd8d9be2470f1962f192bf84a27d0704b7": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "zombieId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "dna",
+              "type": "uint256"
+            }
+          ],
+          "name": "NewZombie",
+          "type": "event",
+          "signature": "0x88f026aacbbecc90c18411df4b1185fd8d9be2470f1962f192bf84a27d0704b7"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event",
+          "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+        }
+      },
+      "links": {},
+      "address": "0x5F40622AE90245f63cd500c0ba959B07f51676be",
+      "transactionHash": "0xd92d337226b4177f64368a2b517140096cf8dd93acec08e2816df9aa2ea64d05"
+    },
+    "1552357872677": {
       "events": {},
       "links": {},
-      "address": "0xA7b203f70Cf16da0cF1fe0F035B7170C5C44f5D4",
-      "transactionHash": "0x9a90a73b1ca76cbe6eb1d920eb4b48e8815a8afcc9f01db3da5dbec30d97e9fd"
+      "address": "0xa6e47877Df28e78580f6A7c3426d1B3fCBdEF5bE",
+      "transactionHash": "0x5e13fbade77dde94c8c280b71628297d139295465462f2676dc4c55113f63f48"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-11T06:51:46.877Z",
+  "updatedAt": "2019-03-12T02:48:43.106Z",
   "devdoc": {
     "methods": {
       "isOwner()": {

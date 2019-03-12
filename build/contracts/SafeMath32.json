@@ -7311,12 +7311,18 @@
     "1552287025225": {
       "events": {},
       "links": {},
-      "address": "0x1Aae604038D39cC5c87cDf0D714933eA01653662",
-      "transactionHash": "0xa3907a5409a630f5a3f757bdd102c1eaac3d2eaa65f0b0bd5e322b879c9a966e"
+      "address": "0x2bbEA5333C79834b0207c447360dbA796161EC57",
+      "transactionHash": "0x03a08d31fa8b975d76054ce927cd3c0bc9f8dda1a8352cecd22568ba4e2f09f1"
+    },
+    "1552357872677": {
+      "events": {},
+      "links": {},
+      "address": "0x477F1257cfb098cdDf141292e01E260f936883Dc",
+      "transactionHash": "0x1e50099c6fe647dfedd1c0cb1f49e878f8138a128a9cae4565e219cf6b192db3"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-11T06:51:46.179Z",
+  "updatedAt": "2019-03-12T02:48:42.310Z",
   "devdoc": {
     "methods": {},
     "title": "SafeMath32"

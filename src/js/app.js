@@ -1,10 +1,11 @@
+var Web3 = require("web3");
 var cryptoZombies;
 var userAccount;
 
 function startApp() {
-  var cryptoZombiesAddress = "0xc7AaC8023CB693Ec9C2714c9fcad6ba0CbF59234";
-  cryptoZombies = web3.eth.contract(cryptoZombiesABI, cryptoZombiesAddress);
-  console.log(cryptoZombies);
+  var cryptoZombiesAddress = "0xF972CC4F951D1B10FA88Df2E430Fa1839371Aa77";
+  cryptoZombies = new web3js.eth.Contract(cryptoZombiesABI, cryptoZombiesAddress);
+
   var accountInterval = setInterval(function() {
     // Check if account has changed
     if (web3.eth.accounts[0] !== userAccount) {
@@ -104,21 +105,20 @@ function getZombiesByOwner(owner) {
 }
 
 window.addEventListener('load', function() {
-  Web3 = require('web3')
-  // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+
   // Checking if Web3 has been injected by the browser (Mist/MetaMask)
   if (typeof web3 !== 'undefined') {
     // Use Mist/MetaMask's provider
-    web3 = new Web3(web3.currentProvider);
+    web3js = new Web3(web3.currentProvider);
   } else {
-    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    // Handle the case where the user doesn't have Metamask installed
+    // Probably show them a message prompting them to install Metamask
   }
+
   // Now you can start your app & access web3 freely:
   startApp();
-})
-$(document).ready(function(){
-  $( "#createRandomZombie" ).click(function() {
-    var name = $('#ZombieName').val();
-    createRandomZombie(name + Math.floor((Math.random() * 666) + 1));
+
+  $('#createRandomZombie').on('click',function(){
+    createRandomZombie("RandomZombie" + Math.floor((Math.random() * 666) + 1));
   });
 });

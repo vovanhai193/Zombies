@@ -7311,12 +7311,18 @@
     "1552287025225": {
       "events": {},
       "links": {},
-      "address": "0x4f6eA2CaD9eaCD13126Bd925DEdc7d53e49F6516",
-      "transactionHash": "0x288dd0d84cb665250f04336ed0e7a3c1936d4a8c7b7e4ef00d85ab00021d41c2"
+      "address": "0xDED21a5F6b377953fC950eBa596547D1afaACcf6",
+      "transactionHash": "0xd0422d991e7a1341d0b9f707ed758fbb0637b501f54a08d72db22b930896f868"
+    },
+    "1552357872677": {
+      "events": {},
+      "links": {},
+      "address": "0xE6F8acD59Cf762aD838894CB4848Ea56A838B7db",
+      "transactionHash": "0x2e4ed409631a78b676349b65a83037046512070fb981dad785f0c633c14ba752"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-11T06:51:46.176Z",
+  "updatedAt": "2019-03-12T02:48:42.302Z",
   "devdoc": {
     "methods": {},
     "title": "SafeMath"
